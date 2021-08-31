@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Database form</title>
+</head>
+
+<body>
+    <div id="homepage">
+        <h1>User registration</h1>
+
+        <div id="personalDetail">
+            <form action ="/api/pdetail" method="POST">
+                <fieldset>
+                    <legend> Personal Information </legend>
+                    <br><br>
+                    <!-- creating an input for user to insert their details  -->
+                            Title:  <input type= "text" name = "title"><br><br>
+                            First Name: <input type= "text" name = "Fname"><br><br>
+                            Surname: <input type= "text" name = "Lname"><br><br>
+                            phoneNumber: <input type= "text" name = "phoneNumber"><br><br>
+                            homeNumber: <input type= "text" name = "homeNumber"><br><br>
+                            email: <input type= "text" name = "email"><br><br>
+                            addressLine1: <input type= "text" name = "addressLine1"><br><br>
+                            addressLine2: <input type= "text" name = "addressLine2"><br><br>
+                            town: <input type= "text" name = "town"><br><br>
+                            County: <input type= "text" name = "county"><br><br>
+                            Eircode:  <input type= "text" name = "eircode"><br><br>
+                            
+                </fieldset>
+                
+                <input type="submit" name="submit" value = "Submit">
+            </form>
+            <script> fetch('/api/pdetail').then(function(data){
+                return data.json();
+            }).then(json => {
+                this.setState({
+                    pdetail: json
+                });
+            });
+            </script>
+        </div>
+
+        <div id="Session detail"></div>
+    </div>
+
+
+</html>

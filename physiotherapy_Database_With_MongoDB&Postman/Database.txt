@@ -1,0 +1,574 @@
+
+Personal Detail
+/* 1 */
+{
+    "_id" : ObjectId("609d8aa3c0763e7ed80bd26c"),
+    "title" : "Miss",
+    "Fname" : "Daisy",
+    "Lname" : "Healy",
+    "phoneNumber" : 83453354230.0,
+    "email" : "DaisyH@hotmail.com",
+    "town" : "Dublin",
+    "county" : "Dublin",
+    "eircode" : "D001 0240",
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("609d8b7cc0763e7ed80bd26d"),
+    "title" : "Miss",
+    "Fname" : "Daisy",
+    "Lname" : "Healy",
+    "phoneNumber" : 83453354230.0,
+    "email" : "DaisyH@hotmail.com",
+    "town" : "Dublin",
+    "county" : "Dublin",
+    "eircode" : "D001 0240",
+    "client" : {
+        "clientDetail" : {
+            "_id" : ObjectId("609d8b7cc0763e7ed80bd26e"),
+            "age" : 24,
+            "gaurdianName" : "N/A",
+            "permission" : "N/A",
+            "phoneNumber" : 83453354230.0,
+            "homeNumber" : "83453354230",
+            "email" : "DaisyH@hotmail.com",
+            "dateRegister" : " 15 December 2021"
+        },
+        "doctorDetail" : {
+            "_id" : ObjectId("609d8b7cc0763e7ed80bd26f"),
+            "DoctorReffered" : "Dr. Ramji",
+            "WorkAddress" : "53 Verdansk, Nangar road, Crumlin road, Dublin, Ireland",
+            "Permisson" : "Y",
+            "phoneNumber" : 85465335423.0
+        }
+    },
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("609d99bbdf1c8c6e0487851d"),
+    "title" : "Miss",
+    "Fname" : "Daisy",
+    "Lname" : "Healy",
+    "phoneNumber" : 83453354230.0,
+    "homeNumber" : 83453354230.0,
+    "email" : "DaisyH@hotmail.com",
+    "addressLine1" : "25 Blackrock",
+    "addressLine2" : "Avenue Street",
+    "town" : "Dublin",
+    "county" : "Dublin",
+    "eircode" : "D001 0240",
+    "client" : {
+        "clientDetail" : {
+            "_id" : ObjectId("609d99bbdf1c8c6e0487851e"),
+            "age" : 24,
+            "gaurdianName" : "N/A",
+            "permission" : "N/A",
+            "phoneNumber" : 83453354230.0,
+            "homeNumber" : "83453354230",
+            "email" : "DaisyH@hotmail.com",
+            "dateRegister" : " 15 December 2021"
+        },
+        "doctorDetail" : {
+            "_id" : ObjectId("609d99bbdf1c8c6e0487851f"),
+            "DoctorReffered" : "Dr. Ramji",
+            "WorkAddress" : "53 Verdansk, Nangar road, Crumlin road, Dublin, Ireland",
+            "Permisson" : "Y",
+            "phoneNumber" : 85465335423.0
+        }
+    },
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("609d9eb1676cab81c054db2b"),
+    "title" : "Miss",
+    "Fname" : "Emma",
+    "Lname" : "Stone",
+    "phoneNumber" : 96583354230.0,
+    "homeNumber" : 96583354230.0,
+    "email" : "EmmaS@hotmail.com",
+    "addressLine1" : "25 Monkstown",
+    "addressLine2" : "Avenue Street",
+    "town" : "Dublin",
+    "county" : "Dublin",
+    "eircode" : "D201 340",
+    "client" : {
+        "clientDetail" : {
+            "_id" : ObjectId("609d9eb1676cab81c054db2c"),
+            "age" : 32,
+            "gaurdianName" : "N/A",
+            "permission" : "N/A",
+            "phoneNumber" : 96583354230.0,
+            "homeNumber" : "96583354230",
+            "email" : "EmmaS@hotmail.com",
+            "dateRegister" : " 15 November 2020"
+        },
+        "doctorDetail" : {
+            "_id" : ObjectId("609d9eb1676cab81c054db2d"),
+            "DoctorReffered" : "Dr. CJ",
+            "WorkAddress" : "69 Grove Street, Maynooth road, Kildare, Ireland",
+            "Permisson" : "Y",
+            "phoneNumber" : 69695335423.0
+        }
+    },
+    "__v" : 0
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("609d9eb4676cab81c054db2e"),
+    "title" : "Miss",
+    "Fname" : "Emma",
+    "Lname" : "Stone",
+    "phoneNumber" : 96583354230.0,
+    "homeNumber" : 96583354230.0,
+    "email" : "EmmaS@hotmail.com",
+    "addressLine1" : "25 Monkstown",
+    "addressLine2" : "Avenue Street",
+    "town" : "Dublin",
+    "county" : "Dublin",
+    "eircode" : "D201 340",
+    "client" : {
+        "clientDetail" : {
+            "_id" : ObjectId("609d9eb4676cab81c054db2f"),
+            "age" : 32,
+            "gaurdianName" : "N/A",
+            "permission" : "N/A",
+            "phoneNumber" : 96583354230.0,
+            "homeNumber" : "96583354230",
+            "email" : "EmmaS@hotmail.com",
+            "dateRegister" : " 15 November 2020"
+        },
+        "doctorDetail" : {
+            "_id" : ObjectId("609d9eb4676cab81c054db30"),
+            "DoctorReffered" : "Dr. CJ",
+            "WorkAddress" : "69 Grove Street, Maynooth road, Kildare, Ireland",
+            "Permisson" : "Y",
+            "phoneNumber" : 69695335423.0
+        }
+    },
+    "__v" : 0
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("609da14b676cab81c054db31"),
+    "title" : "Miss",
+    "Fname" : "Emma",
+    "Lname" : "Stone",
+    "phoneNumber" : 96583354230.0,
+    "homeNumber" : 96583354230.0,
+    "email" : "EmmaS@hotmail.com",
+    "addressLine1" : "25 Monkstown",
+    "addressLine2" : "Avenue Street",
+    "town" : "Dublin",
+    "county" : "Dublin",
+    "eircode" : "D201 340",
+    "client" : {
+        "clientDetail" : {
+            "_id" : ObjectId("609da14b676cab81c054db32"),
+            "age" : 32,
+            "gaurdianName" : "N/A",
+            "permission" : "N/A",
+            "phoneNumber" : 96583354230.0,
+            "homeNumber" : "96583354230",
+            "email" : "EmmaS@hotmail.com",
+            "dateRegister" : " 15 November 2020"
+        },
+        "doctorDetail" : {
+            "_id" : ObjectId("609da14b676cab81c054db33"),
+            "DoctorReffered" : "Dr. CJ",
+            "WorkAddress" : "69 Grove Street, Maynooth road, Kildare, Ireland",
+            "Permisson" : "Y",
+            "phoneNumber" : 69695335423.0
+        }
+    },
+    "__v" : 0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("609da14c676cab81c054db34"),
+    "title" : "Miss",
+    "Fname" : "Emma",
+    "Lname" : "Stone",
+    "phoneNumber" : 96583354230.0,
+    "homeNumber" : 96583354230.0,
+    "email" : "EmmaS@hotmail.com",
+    "addressLine1" : "25 Monkstown",
+    "addressLine2" : "Avenue Street",
+    "town" : "Dublin",
+    "county" : "Dublin",
+    "eircode" : "D201 340",
+    "client" : {
+        "clientDetail" : {
+            "_id" : ObjectId("609da14c676cab81c054db35"),
+            "age" : 32,
+            "gaurdianName" : "N/A",
+            "permission" : "N/A",
+            "phoneNumber" : 96583354230.0,
+            "homeNumber" : "96583354230",
+            "email" : "EmmaS@hotmail.com",
+            "dateRegister" : " 15 November 2020"
+        },
+        "doctorDetail" : {
+            "_id" : ObjectId("609da14c676cab81c054db36"),
+            "DoctorReffered" : "Dr. CJ",
+            "WorkAddress" : "69 Grove Street, Maynooth road, Kildare, Ireland",
+            "Permisson" : "Y",
+            "phoneNumber" : 69695335423.0
+        }
+    },
+    "__v" : 0
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("609da14d676cab81c054db3a"),
+    "title" : "Miss",
+    "Fname" : "Emma",
+    "Lname" : "Stone",
+    "phoneNumber" : 96583354230.0,
+    "homeNumber" : 96583354230.0,
+    "email" : "EmmaS@hotmail.com",
+    "addressLine1" : "25 Monkstown",
+    "addressLine2" : "Avenue Street",
+    "town" : "Dublin",
+    "county" : "Dublin",
+    "eircode" : "D201 340",
+    "client" : {
+        "clientDetail" : {
+            "_id" : ObjectId("609da14d676cab81c054db3b"),
+            "age" : 32,
+            "gaurdianName" : "N/A",
+            "permission" : "N/A",
+            "phoneNumber" : 96583354230.0,
+            "homeNumber" : "96583354230",
+            "email" : "EmmaS@hotmail.com",
+            "dateRegister" : " 15 November 2020"
+        },
+        "doctorDetail" : {
+            "_id" : ObjectId("609da14d676cab81c054db3c"),
+            "DoctorReffered" : "Dr. CJ",
+            "WorkAddress" : "69 Grove Street, Maynooth road, Kildare, Ireland",
+            "Permisson" : "Y",
+            "phoneNumber" : 69695335423.0
+        }
+    },
+    "__v" : 0
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("609da757deea5874c4a75ae6"),
+    "title" : "Miss",
+    "Fname" : "Emma",
+    "Lname" : "Stone",
+    "phoneNumber" : 96583354230.0,
+    "homeNumber" : 96583354230.0,
+    "email" : "EmmaS@hotmail.com",
+    "addressLine1" : "25 Monkstown",
+    "addressLine2" : "Avenue Street",
+    "town" : "Dublin",
+    "county" : "Dublin",
+    "eircode" : "D201 340",
+    "client" : {
+        "clientDetail" : {
+            "_id" : ObjectId("609da757deea5874c4a75ae7"),
+            "age" : 32,
+            "gaurdianName" : "N/A",
+            "permission" : "N/A",
+            "phoneNumber" : 96583354230.0,
+            "homeNumber" : "96583354230",
+            "email" : "EmmaS@hotmail.com",
+            "dateRegister" : " 15 November 2020"
+        },
+        "doctorDetail" : {
+            "_id" : ObjectId("609da757deea5874c4a75ae8"),
+            "DoctorReffered" : "Dr. CJ",
+            "WorkAddress" : "69 Grove Street, Maynooth road, Kildare, Ireland",
+            "Permisson" : "Y",
+            "phoneNumber" : 69695335423.0
+        }
+    },
+    "__v" : 0
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("609da7c4deea5874c4a75aec"),
+    "title" : "Miss",
+    "Fname" : "Emma",
+    "Lname" : "Stone",
+    "phoneNumber" : 96583354230.0,
+    "homeNumber" : 96583354230.0,
+    "email" : "EmmaS@hotmail.com",
+    "addressLine1" : "25 Monkstown",
+    "addressLine2" : "Avenue Street",
+    "town" : "Dublin",
+    "county" : "Dublin",
+    "eircode" : "D201 340",
+    "client" : {
+        "clientDetail" : {
+            "_id" : ObjectId("609da7c4deea5874c4a75aed"),
+            "age" : 32,
+            "gaurdianName" : "N/A",
+            "permission" : "N/A",
+            "phoneNumber" : 96583354230.0,
+            "homeNumber" : "96583354230",
+            "email" : "EmmaS@hotmail.com",
+            "dateRegister" : " 15 November 2020"
+        },
+        "doctorDetail" : {
+            "_id" : ObjectId("609da7c4deea5874c4a75aee"),
+            "DoctorReffered" : "Dr. CJ",
+            "WorkAddress" : "69 Grove Street, Maynooth road, Kildare, Ireland",
+            "Permisson" : "Y",
+            "phoneNumber" : 69695335423.0
+        }
+    },
+    "__v" : 0
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("609dce88a5ce20071082519e"),
+    "title" : "Mr",
+    "Fname" : "Tome",
+    "Lname" : "Crew",
+    "phoneNumber" : 3861634368.0,
+    "homeNumber" : 3861634368.0,
+    "email" : "hao.n@live.ie",
+    "addressLine1" : "14 Kentury Fried Chicken Street",
+    "addressLine2" : "Cellbridge",
+    "town" : "Dublin",
+    "county" : "Kildare",
+    "eircode" : "D201 3045",
+    "__v" : 0
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("609dd18b6e514e8278f2daa8"),
+    "title" : "Mr",
+    "Fname" : "Hao",
+    "Lname" : "Nguyen",
+    "phoneNumber" : 3861634368.0,
+    "homeNumber" : 3861634368.0,
+    "email" : "hao.n@live.ie",
+    "addressLine1" : "14 Kentury Fried Chicken Street",
+    "addressLine2" : "Cellbridge",
+    "town" : "Dublin",
+    "county" : "Kildare",
+    "eircode" : "D201 3045",
+    "__v" : 0
+}
+
+Session Details
+
+/* 1 */
+{
+    "_id" : ObjectId("609db98ac9340e5548db7e30"),
+    "sessionDate" : "15 February 2020",
+    "sessionTime" : "2:00pm",
+    "sessionNumber" : "1543",
+    "sessionDurationCancelledNoShow" : "60 minutes",
+     "sessionType": {
+          "type": {
+                "assessment": "Will be performing body check. Using different body method to find the critical point",
+                "messageTherapy": "Steve have been limping",
+                "StretchExcercise": "back excerising",
+                "technology": "Ultrasound",
+		"sessionNote: "This man been improving"
+                },
+         "attendance": {
+                "client": "Steve",
+                "sessionType": "Back pain",
+                "sessionDurationCancelledNoShow": "60 Minute",
+                "sessionNote": "Performing inspection" 
+            },
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("609dba416b9052120c37b4bb"),
+    "sessionDate" : "15 February 2020",
+    "sessionTime" : "2:00pm",
+    "sessionNumber" : "1543",
+    "sessionDurationCancelledNoShow" : "60 minutes",
+     "sessionType": {
+          "type": {
+                "assessment": "Will be performing body check. Using different body method to find the critical point",
+                "messageTherapy": "Steve have been limping",
+                "StretchExcercise": "back excerising",
+                "technology": "Ultrasound",
+		"sessionNote: "This man been improving"
+                },
+         "attendance": {
+                "client": "Steve",
+                "sessionType": "Back pain",
+                "sessionDurationCancelledNoShow": "60 Minute",
+                "sessionNote": "Performing inspection" 
+            },
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("609dbae26b9052120c37b4bf"),
+    "sessionDate" : "15 February 2020",
+    "sessionTime" : "2:00pm",
+    "sessionNumber" : "1543",
+    "sessionDurationCancelledNoShow" : "60 minutes",
+     "sessionType": {
+          "type": {
+                "assessment": "Will be performing body check. Using different body method to find the critical point",
+                "messageTherapy": "Steve have been limping",
+                "StretchExcercise": "back excerising",
+                "technology": "Ultrasound",
+		"sessionNote: "This man been improving"
+                },
+         "attendance": {
+                "client": "Steve",
+                "sessionType": "Back pain",
+                "sessionDurationCancelledNoShow": "60 Minute",
+                "sessionNote": "Performing inspection" 
+            },
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("609dbbd74b2df606c451f429"),
+    "sessionDate" : "15 February 2020",
+    "sessionTime" : "2:00pm",
+    "physiotherapist" : "Dr.Jan",
+    "fee" : 60,
+    "sessionNumber" : "1543",
+    "sessionDurationCancelledNoShow" : "60 minutes",
+         "sessionType": {
+          "type": {
+                "assessment": "Will be performing body check. Using different body method to find the critical point",
+                "messageTherapy": "Steve have been limping",
+                "StretchExcercise": "back excerising",
+                "technology": "Ultrasound",
+		"sessionNote: "This man been improving"
+                },
+         "attendance": {
+                "client": "Steve",
+                "sessionType": "Back pain",
+                "sessionDurationCancelledNoShow": "60 Minute",
+                "sessionNote": "Performing inspection" 
+            },
+    "__v" : 0
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("609dbbed4b2df606c451f42b"),
+    "sessionDate" : "15 February 2020",
+    "sessionTime" : "2:00pm",
+    "physiotherapist" : "Dr.Jan",
+    "fee" : 60,
+    "sessionNumber" : "1543",
+    "sessionDurationCancelledNoShow" : "60 minutes",
+         "sessionType": {
+          "type": {
+                "assessment": "Will be performing body check. Using different body method to find the critical point",
+                "messageTherapy": "Steve have been limping",
+                "StretchExcercise": "back excerising",
+                "technology": "Ultrasound",
+		"sessionNote: "This man been improving"
+                },
+         "attendance": {
+                "client": "Steve",
+                "sessionType": "Back pain",
+                "sessionDurationCancelledNoShow": "60 Minute",
+                "sessionNote": "Performing inspection" 
+            },
+    "__v" : 0
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("609dbcca4b2df606c451f42d"),
+    "sessionDate" : "15 February 2020",
+    "sessionTime" : "2:00pm",
+    "physiotherapist" : "Dr.Jan",
+    "fee" : 60,
+    "sessionNumber" : "1543",
+    "sessionDurationCancelledNoShow" : "60 minutes",
+         "sessionType": {
+          "type": {
+                "assessment": "Will be performing body check. Using different body method to find the critical point",
+                "messageTherapy": "Steve have been limping",
+                "StretchExcercise": "back excerising",
+                "technology": "Ultrasound",
+		"sessionNote: "This man been improving"
+                },
+         "attendance": {
+                "client": "Steve",
+                "sessionType": "Back pain",
+                "sessionDurationCancelledNoShow": "60 Minute",
+                "sessionNote": "Performing inspection" 
+            },
+    "__v" : 0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("609dbdb8148094842c4867d6"),
+    "sessionDate" : "15 February 2020",
+    "sessionTime" : "2:00pm",
+    "physiotherapist" : "Dr.Jan",
+    "fee" : 60,
+    "sessionNumber" : "1543",
+    "sessionDurationCancelledNoShow" : "60 minutes",
+         "sessionType": {
+          "type": {
+                "assessment": "Will be performing body check. Using different body method to find the critical point",
+                "messageTherapy": "Steve have been limping",
+                "StretchExcercise": "back excerising",
+                "technology": "Ultrasound",
+		"sessionNote: "This man been improving"
+                },
+         "attendance": {
+                "client": "Steve",
+                "sessionType": "Back pain",
+                "sessionDurationCancelledNoShow": "60 Minute",
+                "sessionNote": "Performing inspection" 
+            },
+    "__v" : 0
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("609dbf8cf857f1866c417291"),
+    "sessionDate" : "15 February 2020",
+    "sessionTime" : "2:00pm",
+    "physiotherapist" : "Dr.Jan",
+    "fee" : 60,
+    "sessionNumber" : "1543",
+    "sessionDurationCancelledNoShow" : "60 minutes",
+         "sessionType": {
+          "type": {
+                "assessment": "Will be performing body check. Using different body method to find the critical point",
+                "messageTherapy": "Steve have been limping",
+                "StretchExcercise": "back excerising",
+                "technology": "Ultrasound",
+		"sessionNote: "This man been improving"
+                },
+         "attendance": {
+                "client": "Steve",
+                "sessionType": "Back pain",
+                "sessionDurationCancelledNoShow": "60 Minute",
+                "sessionNote": "Performing inspection" 
+            },
+    "__v" : 0
+}
