@@ -1,0 +1,322 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title></title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script
+    type="text/javascript"
+    src="/js/lib/dummy.js"
+    
+  ></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+      .text{
+  font-style: Arial;
+}
+
+.pyramid-container {
+justify-content: center;
+display: center; 
+text-align: center;
+}
+
+
+.pyramid-container button{
+width: 40px;
+height: 20px;
+color: 1px solid #000;
+border-radius: 150px;
+background: white;
+}
+
+.pyramid-container input{
+border-top: 1px solid #000;
+border-bottom: 1px solid #000;
+text-align: center;
+width: 50px;
+font-size: 15px;
+}
+
+
+#pyramidsub:hover{
+    border-bottom: 180px solid #e36056;
+
+}
+
+#pyramidsub {
+	position: relative;
+    border-bottom: 180px solid red;
+    border-left: 82.5px solid transparent;
+    border-right: 82.5px solid transparent;
+    height: 0px;
+    width: 0px;
+    margin-right:auto;
+    margin-left:auto;
+
+}
+
+#pyramid1:hover{
+    border-bottom: 100px solid #e36056;
+
+}
+
+
+#pyramid1 {
+	position: relative;
+    border-bottom: 100px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0px;
+    width: 165px;
+    margin-right:auto;
+    margin-left:auto;
+
+}
+
+
+
+#pyramid-breakone {
+    border-bottom: 10px solid white;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 0px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#pyramid2:hover{
+border-bottom: 100px solid #fabd73;
+}
+
+
+#pyramid2 {
+    border-bottom: 100px solid orange;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 275px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#pyramid-breaktwo {
+    border-bottom: 10px solid white;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 0px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#pyramid3:hover{
+border-bottom: 100px solid #f7ee72;
+}
+
+
+
+#pyramid3 {
+  position: relative;
+    border-bottom: 100px solid yellow;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 380px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#pyramid4:hover{
+border-bottom: 100px solid #6e75ff;
+}
+
+
+
+#pyramid4 {
+  position: relative;
+    border-bottom: 100px solid blue;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 480px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#pyramid5:hover{
+border-bottom: 100px solid #a1665c;
+}
+
+#pyramid5 {
+  position: relative;
+    border-bottom: 100px solid brown;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 580px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#pyramid6:hover{
+border-bottom: 100px solid #5cad67;
+}
+
+
+#pyramid6 {
+  position: relative;
+    border-bottom: 100px solid green;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 680px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+    /* EOS */
+  </style>
+
+  <script id="insert"></script>
+
+
+</head>
+<body>
+    <div id="text"><center><h1>
+My Food Pyramid
+</h1>
+</center>
+</div>
+
+<div class="pyramid-container">
+
+<div id="pyramidsub">
+</div>
+
+<div id="pyramid1">
+	<button class ="btn plus-btn" onClick="increment1()">+</button>
+  <input type ="number" id="amount1" value ="0" >
+  <button class ="btn minus-btn" onClick="decrement1()">-</button>
+</div>	
+	
+<div id="pyramid-breakone"></div>
+	
+<div id="pyramid2">
+	<button class ="btn plus-btn" onClick="increment2()">+</button>
+  <input type ="number" id="amount2" value ="0"  >
+<button class ="btn minus-btn" onClick="decrement2()">-</button>
+</div>
+
+<div id="pyramid-breaktwo"></div>
+	
+<div id="pyramid3">
+	<button class ="btn plus-btn"  onClick="increment3()">+</button>
+	<input type ="number" id="amount3" value ="0" >
+	<button class ="btn minus-btn"  onClick="decrement3()">-</button>
+</div>
+<div id="pyramid4">
+	<button class ="btn plus-btn"  onClick="increment4()"  >+</button>
+  <input type ="number" id="amount4" value ="0"  >
+  <button class ="btn minus-btn"  onClick="decrement4()"  >-</button>
+</div>
+<div id="pyramid5">
+	<button class ="btn plus-btn" onClick="increment5()">+</button>
+  <input type ="number" id="amount5"  value ="0"  >
+  <button class ="btn minus-btn" onClick="decrement5()">-</button>
+</div>
+<div id="pyramid6">
+	<button class ="btn plus-btn"  onClick="increment6()">+</button>
+  	<input type ="number" id="amount6" value ="0"  >
+  <button class ="btn minus-btn"  onClick="decrement6()">-</button>
+</div>	
+
+<div id="text"><center><h1>
+<time datetime="19-Feb-21"> [19-Feb-21] </time>
+</h1>
+</center>
+</div>
+
+</div>	
+
+    <script type="text/javascript">//<![CDATA[
+
+
+
+ function increment1() {
+      document.getElementById('amount1').stepUp();
+   }
+
+function decrement1(){
+	document.getElementById('amount1').stepDown();
+}
+
+ function increment2() {
+      document.getElementById('amount2').stepUp();
+   }
+
+function decrement2(){
+	document.getElementById('amount2').stepDown();
+}
+
+ function increment3() {
+      document.getElementById('amount3').stepUp();
+   }
+
+function decrement3(){
+	document.getElementById('amount3').stepDown();
+}
+
+ function increment4() {
+      document.getElementById('amount4').stepUp();
+   }
+
+function decrement4(){
+	document.getElementById('amount4').stepDown();
+}
+
+ function increment5() {
+      document.getElementById('amount5').stepUp();
+   }
+
+function decrement5(){
+	document.getElementById('amount5').stepDown();
+}
+
+ function increment6() {
+      document.getElementById('amount6').stepUp();
+   }
+
+function decrement6(){
+	document.getElementById('amount6').stepDown();
+}
+
+
+  //]]></script>
+
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "3457tfjp"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+
+</body>
+</html>
