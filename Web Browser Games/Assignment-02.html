@@ -1,0 +1,552 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title></title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script
+    type="text/javascript"
+    src="/js/lib/dummy.js"
+    
+  ></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.font{
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+.simon-Container{
+  
+justify-content: center;
+display: center; 
+text-align: center;
+margin-top: auto;
+margin-bottom: auto;
+margin: 500px;
+position: absolute center; 
+}
+
+.simon-Container button{
+  
+   position: relative;
+   top: 50px; 
+   bottom: 0px;
+   left: 0px;
+   right: 0px;
+    width: 80px;
+   height: 25px;
+  border-radius: 5px;
+   background: #c7c7c7;
+   box-shadow: inset 0px 3px 0px 0px #e3e3e3;
+   text-align: center;
+   font-size: 13px;
+   letter-spacing: 2px;
+   font-family: 'Orbitron', sans-serif;
+}
+
+#highscore{
+  
+   position: relative;
+   top: 75px; 
+   bottom: 0px;
+   left: 20px;
+   right: 0px;
+    width: 35px;
+   height: 25px;
+  border-radius: 5px;
+   background: #c7c7c7;
+   box-shadow: inset 0px 3px 0px 0px #e3e3e3;
+   text-align: center;
+   font-size: 18px;
+
+   font-family: 'Orbitron', sans-serif;
+  
+}
+
+
+#turn{
+  
+   position: relative;
+   top: 25px; 
+   bottom: 00px;
+   left: 144px;
+   right: 0px;
+    width: 35px;
+   height: 25px;
+  border-radius: 5px;
+   background: #c7c7c7;
+   box-shadow: inset 0px 3px 0px 0px #e3e3e3;
+   text-align: center;
+   font-size: 18px;
+   letter-spacing: 3px;
+   font-family: 'Orbitron', sans-serif;
+  
+}
+
+#light{
+  
+   position: relative;
+   top: 40px; 
+   bottom: 00px;
+   left: 95px;
+   right: 0px;
+    width: 10px;
+   height: 10px;
+  border-radius: 5px;
+   background: red;
+   text-align: center;
+}
+
+
+
+
+#circle-center{
+
+    position: absolute;
+   top: 220px; 
+   bottom: 250px;
+   left: 210px;
+   right: 200px;
+    width: 200px;
+   height: 200px;
+   background: linear-gradient(to bottom, #1c1c1c 5%, #000000 100%);
+   box-shadow: inset 0px 2px 0px 0px #6e6d6d;
+   -moz-border-radius: 170px; 
+   -webkit-border-radius: 170px; 
+   border-radius: 170px;
+   
+}
+
+
+
+#circle-top-left { 
+
+   position: absolute;
+   top: 150px;
+   bottom: 150px;
+   left: 150px;
+   right: 0px;
+   width: 130px;
+   height: 130px;
+   background: linear-gradient(to bottom, #1c1c1c 5%, #000000 100%);
+   box-shadow: inset 0px 2px 0px 0px #6e6d6d;
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+}
+
+
+#button-green { 
+
+   position: relative;
+   top: 7px;
+   bottom: 0px;
+   left: 7px;
+   right: 5px;
+   width: 115px;
+   height: 115px;
+   background: #23ff86;
+   box-shadow: inset 0px 2px 0px 0px #e0dbcc;
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+}
+
+#button-green:hover{
+   background: linear-gradient(to bottom, #88ff64 5%, #a4edc5 100%);
+   box-shadow: inset 0px 2px 0px 0px #e0dbcc;
+}
+
+#circle-top-right { 
+   position: absolute;
+   top: 150px;
+   bottom: 150px;
+   left: 350px;
+   right: 650px;
+   width: 130px;
+   height: 130px;
+   background: linear-gradient(to bottom, #1c1c1c 5%, #000000 100%);
+   box-shadow: inset 0px 2px 0px 0px #6e6d6d;
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+}
+
+#button-red { 
+   position: relative;
+   top: 7px;
+   bottom: 0px;
+   left: 7px;
+   right: 5px;
+   width: 115px;
+   height: 115px;
+   background: #ba1b0f;
+   box-shadow: inset 0px 2px 0px 0px #e0dbcc;
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+}
+
+#button-red:hover{
+   background: linear-gradient(to bottom, #f54336 5%, #f7978f 100%);
+   box-shadow: inset 0px 2px 0px 0px #e0dbcc;
+}
+
+#circle-bottom-left { 
+   position: absolute;
+   top: 350px;
+   bottom: 200px;
+   left: 150px;
+   right: 450px;
+   width: 130px;
+   height: 130px;
+   background: linear-gradient(to bottom, #1c1c1c 5%, #000000 100%);
+   box-shadow: inset 0px 2px 0px 0px #6e6d6d;
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+}
+
+#button-yellow { 
+   position: relative;
+   top: 7px;
+   bottom: 0px;
+   left: 7px;
+   right: 5x;
+   width: 115px;
+   height: 115px;
+   background: #b8a800;
+   box-shadow: inset 0px 2px 0px 0px #e0dbcc;
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+}
+
+#button-yellow:hover{
+   background: linear-gradient(to bottom, #faeb46 5%, #fff9b8 100%);
+   box-shadow: inset 0px 2px 0px 0px #e0dbcc;
+}
+
+#circle-bottom-right {
+   position: absolute;
+   top: 350px;
+   bottom: 200px;
+   left: 350px;
+   right: 650px;
+   width: 130px;
+   height: 130px;
+   background: linear-gradient(to bottom, #1c1c1c 5%, #000000 100%);
+   box-shadow: inset 0px 2px 0px 0px #6e6d6d;
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+}
+
+
+#button-blue {
+   position: relative;
+   top: 7px;
+   bottom: 0px;
+   left: 7px;
+   right: 5px;
+   width: 115px;
+   height: 115px;
+   background: #05008c;
+   box-shadow: inset 0px 2px 0px 0px #6e6d6d;
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+}
+
+#button-blue:hover{
+   background: linear-gradient(to bottom, #332bff 5%, #9e9afc 100%);
+   box-shadow: inset 0px 2px 0px 0px #e0dbcc;
+}
+    /* EOS */
+  </style>
+
+  <script id="insert"></script>
+
+
+</head>
+<body>
+    <div class="simon-Container">
+
+
+
+
+    <div id= "circle-center">
+    
+    
+        <div id="highscore">00</div>
+       	<button class ="button" id="start">START</button>
+        <div id="turn">00</div>
+        <div id="light">
+        </div>
+
+    </div>
+
+
+    <div id="circle-top-left">
+        <div id="button-green">
+        </div>
+    </div>
+
+
+    <div id="circle-top-right">
+        <div id="button-red">
+        </div>
+    </div>
+
+    <div id="circle-bottom-left">
+        <div id="button-yellow">
+        </div>
+    </div>
+
+
+    <div id="circle-bottom-right">
+        <div id="button-blue">
+        </div>
+    </div>
+
+
+
+</div>
+
+    <script type="text/javascript">//<![CDATA[
+
+
+/*creating let viarables */
+let order = [];
+let pClick = [];
+let flash;
+let turn;
+let highscore= 0;
+let connect;
+let compTurn;
+let intervalId;
+let time; 
+
+
+
+/* Link css from JavaScript */
+
+const light = document.querySelector("#light");
+const startButton = document.querySelector("#start");
+const turnCounter = document.querySelector("#turn");
+const highscoreCounter = document.querySelector("#highscore");
+const topLeft = document.querySelector("#button-green");
+const topRight = document.querySelector("#button-red");
+const bottomLeft = document.querySelector("#button-yellow");
+const bottomRight = document.querySelector("#button-blue");
+
+/* */
+
+
+
+//creating start button  
+startButton.addEventListener('click', (event) => { 
+light.style.backgroundColor = "#49e002";
+clearColor();
+clearInterval(intervalId);
+play();
+});
+
+
+function play() {
+order= [];
+pClick = [];
+flash = 0; 
+intervalId = 0;
+turn = 1;
+turn.innerHTML = 1;
+connect = true;
+
+//loop through random number 
+for (var i = 0; i < 20; i++){
+	order.push(Math.floor(Math.random() * 4) + 1);
+}
+ compTurn = true;
+ intervalId = setInterval(gameTurn, 800);
+ 
+}
+
+//game order sequence 
+function gameTurn(){
+  if (flash == turn) {
+  clearInterval(intervalId);
+  compTurn = false;
+  clearColor();
+}
+
+if(compTurn) {
+clearColor();
+setTimeout(() => {
+        if(order[flash] == 1) {
+        green();
+        }
+        if(order[flash] == 2) {
+        red();
+        }
+        if(order[flash] == 3) {
+        yellow();
+        }
+        if(order[flash] == 4) {
+        blue();
+        }
+      
+      flash++;
+      
+			}, 500);
+		}
+  }
+
+
+//color function for order sequence 
+function green(){
+topLeft.style.backgroundColor = "#aafc9f";
+}
+
+function red(){
+topRight.style.backgroundColor = "#fa7e70";
+}
+
+function yellow(){
+bottomLeft.style.backgroundColor = "#fffb7a";
+}
+
+function blue(){
+bottomRight.style.backgroundColor = "#5485ff";
+}
+
+function clearColor(){
+topLeft.style.backgroundColor = "#23ff86";
+topRight.style.backgroundColor = "#ba1b0f";
+bottomLeft.style.backgroundColor = "#b8a800";
+bottomRight.style.backgroundColor = "#05008c";
+}
+
+//flash color 
+function flashColor(){
+topLeft.style.backgroundColor = "#88ff64";
+topRight.style.backgroundColor = "#f54336";
+bottomLeft.style.backgroundColor = "#faeb46";
+bottomRight.style.backgroundColor = "#332bff";
+}
+
+topLeft.addEventListener('click', (event) => { 
+
+//check then push green 
+pClick.push(1);
+check();
+green();
+setTimeout(() => {clearColor()}, 150); 
+})
+
+topRight.addEventListener('click', (event) => { 
+
+//check then push red
+pClick.push(2);
+check();
+red();
+setTimeout(() => {clearColor()}, 150); 
+})
+
+bottomLeft.addEventListener('click', (event) => { 
+
+//check then push yellow
+pClick.push(3);
+check();
+yellow();
+setTimeout(() => {clearColor()}, 150); 
+})
+
+bottomRight.addEventListener('click', (event) => { 
+
+//check then push blue
+pClick.push(4);
+check();
+blue();
+setTimeout(() => {clearColor()}, 150); 
+})
+
+
+
+
+function check(){
+  if( pClick[pClick.length - 1] !== order[pClick.length - 1]){
+    connect = false;
+    }
+   //game over 
+   //flash all color 
+  if(connect == false) {
+  
+  flashColor();
+  light.style.backgroundColor = "#f71f02";
+  
+  //add highscore leaderboard
+  if(turn-1 > highscore){
+  highscore = turn-1;
+      }
+highscoreCounter.innerHTML = highscore;
+	}
+  //add turn count 
+  if(turn == pClick.length && connect) {
+   turn++;
+   pClick = [];
+  compTurn = true;
+  flash = 0;
+  turnCounter.innerHTML = turn-1;
+  
+  if(turn-1 < 5){
+  time = 1200;
+  }
+  
+  if(turn-1 < 5 && turn-1 < 9){
+  time = 1000;
+  }
+  
+  if(turn-1 < 9 && turn-1 < 13){
+  time = 800;
+  }
+  
+  if(turn-1 >= 13) {
+  time = 600;
+  }
+  
+  intervalId = setInterval(gameTurn, time);
+
+  }
+}
+
+
+  //]]></script>
+
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "49mg8euo"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+
+</body>
+</html>
